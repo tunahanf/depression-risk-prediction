@@ -12,6 +12,9 @@
 *   Random Forest Classifier with "n_estimators=200" used as the classification algorithm.
 *   The related dataset obtained from [Kaggle](https://www.kaggle.com/datasets/ikynahidwin/depression-student-dataset)
 
+```
+model.score(x_test, y_test) # Model score is mostly between .88 and .90
+```
 
   
 <h2>💻 Built with</h2>
