@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
-
+ 
 df = pd.read_csv("Depression.csv")
 ohe = OneHotEncoder(drop="first")
 
