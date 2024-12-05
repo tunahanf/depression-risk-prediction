@@ -29,7 +29,7 @@ model = rf.fit(x_train, y_train)
 # -- GET ANSWERS FROM USER -- 
 
 questions = ["Age : ", "Academic Pressure (1-5) : ", "Study Satisfaction (1-5) : ", "Study Hour : ", "Financal Stress (1-5) : ", "Gender : ", "Sleep Duration : ",
-             "Dietary Habits (Moderate, Unhealthy, Healthy) : ", "Have you ever had suicidal thoughts?(1: Yes, 0: No) : ", "Family History of Mental Illness?(1: Yes, 0: No) : "]
+             "Dietary Habits (Moderate, Unhealthy, Healthy) : ", "Have You Ever Had Suicidal Thoughts?(1: Yes, 0: No) : ", "Family History of Mental Illness?(1: Yes, 0: No) : "]
 
 answerList = []
 
